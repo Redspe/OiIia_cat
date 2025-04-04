@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - ForeGround
+  - BackGround
+  - Character
+  - ForeGround2
+  - KillBox
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - BackGround
+  - ForeGround
+  - Character
+  - ForeGround2
+  - KillBox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 554546167
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2378330319
+    locked: 0
+  - name: Character
+    uniqueID: 1377514673
+    locked: 0
+  - name: ForeGround2
+    uniqueID: 61698805
+    locked: 0
+  - name: KillBox
+    uniqueID: 2394862185
+    locked: 0
+  m_RenderingLayers:
+  - Default

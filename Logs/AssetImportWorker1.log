@@ -1,0 +1,561 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 12156 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Papelaria/OiIia_cat
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57585
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Papelaria/OiIia_cat
+C:/Users/Papelaria/OiIia_cat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11456]  Target information:
+
+Player connection [11456]  * "[IP] 192.168.0.254 [Port] 0 [Flags] 2 [Guid] 1573017582 [EditorId] 1573017582 [Version] 1048832 [Id] WindowsEditor(7,Papelaria1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11456]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1573017582 [EditorId] 1573017582 [Version] 1048832 [Id] WindowsEditor(7,Papelaria1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11456] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11456] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 19.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Papelaria/OiIia_cat/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics (ID=0x402)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.4531
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013749 seconds.
+- Loaded All Assemblies, in  2.098 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.134 seconds
+Domain Reload Profiling: 3227ms
+	BeginReloadAssembly (407ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (66ms)
+	initialDomainReloadingComplete (1060ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (464ms)
+			TypeCache.Refresh (462ms)
+				TypeCache.ScanAssembly (404ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1049ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (245ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.830 seconds
+Refreshing native plugins compatible for Editor in 22.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.604 seconds
+Domain Reload Profiling: 9429ms
+	BeginReloadAssembly (433ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (5140ms)
+		LoadAssemblies (1325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4076ms)
+			TypeCache.Refresh (3133ms)
+				TypeCache.ScanAssembly (2328ms)
+			BuildScriptInfoCaches (733ms)
+			ResolveRequiredComponents (199ms)
+	FinalizeReload (3604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3109ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (445ms)
+			ProcessInitializeOnLoadAttributes (2270ms)
+			ProcessInitializeOnLoadMethodAttributes (338ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6581 unused Assets / (10.5 MB). Loaded Objects now: 7225.
+Memory consumption went from 164.4 MB to 153.9 MB.
+Total: 33.953400 ms (FindLiveObjects: 0.960000 ms CreateObjectMapping: 1.644800 ms MarkObjects: 21.620300 ms  DeleteObjects: 9.726600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 868565.185317 seconds.
+  path: Assets/Palhetas/back_150.asset
+  artifactKey: Guid(f29f7194deab0b54c9cc8eb193631fe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_150.asset using Guid(f29f7194deab0b54c9cc8eb193631fe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20ab465bee4417dda1662151ada5c132') in 2.5771667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palhetas/back_115.asset
+  artifactKey: Guid(8cbce31bab7ca864aa7eb9325b3f4026) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_115.asset using Guid(8cbce31bab7ca864aa7eb9325b3f4026) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a066fa8e188aeb2c4993e5962c613ee') in 0.0388908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003331 seconds.
+  path: Assets/Palhetas/back_142.asset
+  artifactKey: Guid(b4fccc64933ad784e8e4594d5c34cec5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_142.asset using Guid(b4fccc64933ad784e8e4594d5c34cec5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5eb6f511b2b064cc9ad6d2386a174e9a') in 0.0515148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palhetas/back_153.asset
+  artifactKey: Guid(ef3e55e38e5439242ab437122c27b157) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_153.asset using Guid(ef3e55e38e5439242ab437122c27b157) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f97059fce373b64b4f2b626f3a3f9e4b') in 0.0463806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palhetas/back_135.asset
+  artifactKey: Guid(768b0692ff1e1c44ba2c3658dcffc2e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_135.asset using Guid(768b0692ff1e1c44ba2c3658dcffc2e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71f2ac65a228e23801bb91bf1ecc93b2') in 0.0263566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palhetas/back_17.asset
+  artifactKey: Guid(48a9f49eb84e0fb4f96c136ad5f6fa83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_17.asset using Guid(48a9f49eb84e0fb4f96c136ad5f6fa83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38c6f7fd784ae62d90dd00acc9e81804') in 0.0289405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palhetas/back_159.asset
+  artifactKey: Guid(a68aaee69386a754a8bd1059dde75f64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_159.asset using Guid(a68aaee69386a754a8bd1059dde75f64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0da9ea94130141149240a686d5633abf') in 0.6501018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palhetas/back_171.asset
+  artifactKey: Guid(cd71a49e0b0c96b43b639c9613c05879) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_171.asset using Guid(cd71a49e0b0c96b43b639c9613c05879) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89b1bbcff38ebcbe95d3d96f214f3104') in 0.0786925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.505811 seconds.
+  path: Assets/Palhetas/back_196.asset
+  artifactKey: Guid(a301a2d73fa4dde4b853d7ae1ec384b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_196.asset using Guid(a301a2d73fa4dde4b853d7ae1ec384b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5731b1d9cf1f21806b2a81e6816e19f') in 0.0727971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palhetas/back_198.asset
+  artifactKey: Guid(f3b267ced9126fb4b9513d26cc17bf5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_198.asset using Guid(f3b267ced9126fb4b9513d26cc17bf5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad5a7a494112e435f1bbe298762d004a') in 0.7477336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palhetas/back_16.asset
+  artifactKey: Guid(2e2fb6963a326fa4d83452fd27daf6f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_16.asset using Guid(2e2fb6963a326fa4d83452fd27daf6f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5aa6f25e193a49e6a2952b20dd0504b5') in 0.0745691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palhetas/back_103.asset
+  artifactKey: Guid(2b89cd7977cc9164396fa3cf65eec188) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_103.asset using Guid(2b89cd7977cc9164396fa3cf65eec188) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df09f455f39f913afcea2fd304934082') in 0.0512695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palhetas/back_123.asset
+  artifactKey: Guid(82e85607e2398984cb34fc631a8ab591) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_123.asset using Guid(82e85607e2398984cb34fc631a8ab591) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9097884295282891bdd5a4fc7ac5d3d4') in 0.4286191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Palhetas/back_10.asset
+  artifactKey: Guid(1a89b681cab3ec745b168658c69bb5ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_10.asset using Guid(1a89b681cab3ec745b168658c69bb5ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43261e18e05fce66aedf701cd6a34b39') in 0.1742324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Palhetas/back_210.asset
+  artifactKey: Guid(9ee2aec2f2b9f8a4fa059a2d9b2e85b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_210.asset using Guid(9ee2aec2f2b9f8a4fa059a2d9b2e85b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3953ae8228cb7fefc0345584bf66a2e8') in 0.1516466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Palhetas/back_184.asset
+  artifactKey: Guid(13ffdb12d575e0346ae558545293e84f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_184.asset using Guid(13ffdb12d575e0346ae558545293e84f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '454e63f13853fef6b21948b472c96e3c') in 0.3045576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Palhetas/back_215.asset
+  artifactKey: Guid(2bf3c462f9a9d974bb39bd14786b79cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_215.asset using Guid(2bf3c462f9a9d974bb39bd14786b79cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cc1fec1ba91b16cd4dc20d41050b69f') in 0.1539539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palhetas/back_219.asset
+  artifactKey: Guid(4909aa19a478a1e46a84df0cbfcbd6ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_219.asset using Guid(4909aa19a478a1e46a84df0cbfcbd6ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1e7c5740034a88090664c564baf48e6') in 0.1648353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170093 seconds.
+  path: Assets/Palhetas/back_223.asset
+  artifactKey: Guid(a4312ba3811f1e1409c12f049e3e6625) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_223.asset using Guid(a4312ba3811f1e1409c12f049e3e6625) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c21a0160c36e56fe05b729776356fd62') in 0.2179388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Palhetas/back_175.asset
+  artifactKey: Guid(a91f6f1a8bb961b42829244961c86c23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_175.asset using Guid(a91f6f1a8bb961b42829244961c86c23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd92e8921322473b99f6ebc797600cc6a') in 0.5352478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Palhetas/back_229.asset
+  artifactKey: Guid(4bea60b30132dd041bdbf56aaae18afc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_229.asset using Guid(4bea60b30132dd041bdbf56aaae18afc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2f6be340e47af6b3d51630ab71addfc') in 0.189111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palhetas/back_13.asset
+  artifactKey: Guid(2cab10d140b4dfd4c821cd90e8cbfdfe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_13.asset using Guid(2cab10d140b4dfd4c821cd90e8cbfdfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '554c65df8d2acfe5d5dbc36fbd49c694') in 0.2171707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Palhetas/back_100.asset
+  artifactKey: Guid(e5d479c4982a77941a13e8419c7789a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_100.asset using Guid(e5d479c4982a77941a13e8419c7789a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '487c52e6cae0c4bfc531dba46226471b') in 1.2039761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Palhetas/back_166.asset
+  artifactKey: Guid(8e737c2e8c5176c438d734a873d24d4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_166.asset using Guid(8e737c2e8c5176c438d734a873d24d4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7f35369b105b57fe39fb5b87a6c37a3') in 0.6314356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animation/Character.controller
+  artifactKey: Guid(2a85409dc2b9aaf4f83739ac4e3a203a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animation/Character.controller using Guid(2a85409dc2b9aaf4f83739ac4e3a203a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7aa64ebac0ea0cdce0b8a1b3873dd3d') in 0.4938717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581976 seconds.
+  path: Assets/Palhetas/back_106.asset
+  artifactKey: Guid(34639f9766f3e464283ccf85343eef0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_106.asset using Guid(34639f9766f3e464283ccf85343eef0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05ec78f87ffa9f1d1db2fc5eb7c63a9a') in 0.298007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palhetas/back_207.asset
+  artifactKey: Guid(871dcb105d0a01f46aa7140cd95a53f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_207.asset using Guid(871dcb105d0a01f46aa7140cd95a53f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb3d0cfe056caf3063840d9e81e3f384') in 0.3649896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Palhetas/back_248.asset
+  artifactKey: Guid(28f447034de83124daacf95bf3ea11a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_248.asset using Guid(28f447034de83124daacf95bf3ea11a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '508b309032351937bb481f99734b4c37') in 0.3156198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palhetas/back_250.asset
+  artifactKey: Guid(770d3167fbfbb3a4a949327041d93b73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_250.asset using Guid(770d3167fbfbb3a4a949327041d93b73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3d4552a9b55907804f4e05b3777b666') in 0.0694296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palhetas/back_179.asset
+  artifactKey: Guid(e9d9727b0f55c9a49b1528c8d67518b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_179.asset using Guid(e9d9727b0f55c9a49b1528c8d67518b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9264504bc113e4e2e698981e9b321a60') in 0.4722521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palhetas/back_253.asset
+  artifactKey: Guid(b908b3015fb98c24e9d67e3c72976c66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_253.asset using Guid(b908b3015fb98c24e9d67e3c72976c66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1383dc4c9891dc12d4966faf35cedda') in 0.2644468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Palhetas/back_205.asset
+  artifactKey: Guid(df96e3c53c782624c96224ae3ce8e2a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_205.asset using Guid(df96e3c53c782624c96224ae3ce8e2a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ee751dce72c486301de70408e79ac47') in 0.583968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93ed563d05e4e069115926da2be1c309') in 4.6117909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palhetas/back_271.asset
+  artifactKey: Guid(97c2e201d4e04894bb1bd4dff7f29a39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_271.asset using Guid(97c2e201d4e04894bb1bd4dff7f29a39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6b587961649453512cdbe9f3707d156') in 0.0400031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palhetas/back_169.asset
+  artifactKey: Guid(03ca6c1c2de1bd34aa6b9c092d0c67c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_169.asset using Guid(03ca6c1c2de1bd34aa6b9c092d0c67c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c18f78fb10699a6ab961b23b6c2a235') in 0.4568583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Animation/player-run.anim
+  artifactKey: Guid(fb84f1c0e8d33c04f9306057885ca266) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animation/player-run.anim using Guid(fb84f1c0e8d33c04f9306057885ca266) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ee3f5c25cdb1e3745aafe2ba256e8bb') in 0.4389323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palhetas/back_259.asset
+  artifactKey: Guid(e3b309261a7233b4385d27081b95a27e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_259.asset using Guid(e3b309261a7233b4385d27081b95a27e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3528fe416b280070fb48d64511e5649') in 0.2935847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Palhetas/back_283.asset
+  artifactKey: Guid(3fce347ee5a1529428cbd049aab7e901) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_283.asset using Guid(3fce347ee5a1529428cbd049aab7e901) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '084fbcfc8c66f43e3fce2de81f33a3e7') in 0.0498821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Palhetas/back_172.asset
+  artifactKey: Guid(160878c9a0e5a2a4c9dc2687f1a5a1e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_172.asset using Guid(160878c9a0e5a2a4c9dc2687f1a5a1e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb6022eeb233b24549ede6f8cf405cd4') in 0.4594827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Palhetas/back_288.asset
+  artifactKey: Guid(7c024a011a70a2d47a85e43b4f422226) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Palhetas/back_288.asset using Guid(7c024a011a70a2d47a85e43b4f422226) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8b5a29f0bd38fec0aa5f544ac796a89') in 0.3738717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.015 seconds
+Refreshing native plugins compatible for Editor in 15.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.789 seconds
+Domain Reload Profiling: 31936ms
+	BeginReloadAssembly (2472ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (276ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (455ms)
+	RebuildCommonClasses (466ms)
+	RebuildNativeTypeToScriptingClass (203ms)
+	initialDomainReloadingComplete (352ms)
+	LoadAllAssembliesAndSetupDomain (8654ms)
+		LoadAssemblies (6839ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3271ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2847ms)
+			ResolveRequiredComponents (71ms)
+	FinalizeReload (19789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (164ms)
+			BeforeProcessingInitializeOnLoad (2953ms)
+			ProcessInitializeOnLoadAttributes (11435ms)
+			ProcessInitializeOnLoadMethodAttributes (1778ms)
+			AfterProcessingInitializeOnLoad (122ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (10.4 MB). Loaded Objects now: 7230.
+Memory consumption went from 141.6 MB to 131.2 MB.
+Total: 68.203100 ms (FindLiveObjects: 2.386100 ms CreateObjectMapping: 4.368200 ms MarkObjects: 45.736500 ms  DeleteObjects: 15.591800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
