@@ -55,13 +55,15 @@ public class Character : MonoBehaviour
     void getMovinX()
     {
         Vector2 newVelocity = myRigidBody.linearVelocity;
+        bool keyA = Input.GetKey(KeyCode.A);
+        bool keyD = Input.GetKey(KeyCode.D);
 
-        if (Input.GetKey(KeyCode.A))
+        if (keyA && !keyD)
         {
             newVelocity.x = -walkStrength;
 
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (keyD && !keyA)
         {
             newVelocity.x = walkStrength;
 
