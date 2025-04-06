@@ -58,16 +58,19 @@ public class Character : MonoBehaviour
         bool keyA = Input.GetKey(KeyCode.A);
         bool keyD = Input.GetKey(KeyCode.D);
 
+        // Se somente A estiver clicado, anda para esquerda
         if (keyA && !keyD)
         {
             newVelocity.x = -walkStrength;
 
         }
+        // Se somente D estiver clicado, anda para direita
         else if (keyD && !keyA)
         {
             newVelocity.x = walkStrength;
 
         }
+        // Se A e D estiverem clicados OU nenhum, fica parado
         else
         {
             newVelocity.x *= 0.0000f;
