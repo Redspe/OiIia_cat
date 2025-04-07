@@ -5,8 +5,7 @@ public class Killbox : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.gameObject);
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Character"))
         {
             Debug.Log("Morreu!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
